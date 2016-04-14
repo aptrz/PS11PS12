@@ -455,7 +455,7 @@ namespace Boggle
                         command.Parameters.AddWithValue("@Word", input.Word);
                         command.Parameters.AddWithValue("@GameID", Int32.Parse(GameID));
                         command.Parameters.AddWithValue("@Player", input.UserToken);
-                        command.Parameters.AddWithValue("@Score",wordValue);
+                        command.Parameters.AddWithValue("@Score", wordValue);
 
                         command.ExecuteNonQuery();
 

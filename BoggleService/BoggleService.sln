@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoggleService", "BoggleServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoggleServiceTests", "BoggleServiceTests\BoggleServiceTests.csproj", "{71936E2C-E15E-44DE-ABFF-B69805FAE163}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF8F3B41-8606-4754-8B4B-F0D2AE624B95}"
+	ProjectSection(SolutionItems) = preProject
+		..\Net45\Newtonsoft.Json.dll = ..\Net45\Newtonsoft.Json.dll
+		..\Net45\Newtonsoft.Json.xml = ..\Net45\Newtonsoft.Json.xml
+		..\StringSocket.dll = ..\StringSocket.dll
+		..\StringSocket.XML = ..\StringSocket.XML
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
